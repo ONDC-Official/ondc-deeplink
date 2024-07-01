@@ -23,6 +23,7 @@ try:
 
     if args.data:
         query_string = json.loads(args.data)
+        print(query_string)
         generate_qr(query_string)
     elif args.file:
         for query_string in bulk_read(args.file):
