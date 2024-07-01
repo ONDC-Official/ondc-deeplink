@@ -6,7 +6,7 @@ This release includes comprehensive documentation and essential utilities to hel
 
 | Version | Description                                        | Date       |
 |---------|----------------------------------------------------|------------|
-| 1.0     | Initial release                                    | 2023-10-17 |
+| 2.0     | Initial release                                    | 2024-06-12 |
 
 ## Repository Navigation
 
@@ -40,11 +40,11 @@ The QR code maker is a user interface (UI) website offered by ONDC where provide
   <tr>
     <td rowspan="2">Magicpin</td>
     <td>iOS</td>
-    <td>4.4</td>
+    <td>Yet to upgrade</td>
   </tr>
   <tr>
     <td>Android</td>
-    <td>1.80.3</td>
+    <td>Yet to upgrade</td>
   </tr>
   <tr>
     <td rowspan="2">Paytm</td>
@@ -61,6 +61,6 @@ The QR code maker is a user interface (UI) website offered by ONDC where provide
 
 | NP       | Stores Enabled        | Seller NP Dashboard Enabled |
 |----------|-----------------------|---------------------------------|
-| Kiko Live    | -                     | No                              |
+| Kiko Live    | 10                     | No                              |
 
 
