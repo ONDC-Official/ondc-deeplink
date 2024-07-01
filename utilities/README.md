@@ -57,7 +57,7 @@ python3 qr_generate.py --data '{"context.bpp_id": "sellerapp.com", "message.inte
 **Pass the csv file as a file argument**
 
 ```bash
-python3 qr_generate.py --file data.csv
+python3 qr_generate.py --file sampledata.csv
 ```
 
 ## Buyer App Platform Integration
