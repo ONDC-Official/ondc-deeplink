@@ -28,8 +28,12 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Host: ret10.ondc -->
                 <data android:scheme="beckn"
-                    android:host="ondc" />
+                    android:host="ret10.ondc" />
+                <!-- Host: ret11.ondc -->
+                <data android:scheme="beckn"
+                    android:host="ret11.ondc" />
             </intent-filter>
         </activity>
     </application>
