@@ -49,7 +49,7 @@ query_string = {
 **Pass the query_string data as a data argument**
 
 ```bash
-python3 qr_generate.py --data '{"context.bpp_id": "sellerapp.com", "message.intent.provider.id": "P1", "context.domain": "RET10", "message.intent.category.id": "Foodgrains"}'
+python3 qr_code_generate.py --data '{"context.bpp_id": "sellerapp.com", "message.intent.provider.id": "P1", "context.domain": "RET10", "message.intent.category.id": "Foodgrains"}'
 ```
 
 ### Generate Bulk QR codes:
@@ -57,7 +57,7 @@ python3 qr_generate.py --data '{"context.bpp_id": "sellerapp.com", "message.inte
 **Pass the csv file as a file argument**
 
 ```bash
-python3 qr_generate.py --file sampledata.csv
+python3 qr_code_generate.py --file sampledata.csv
 ```
 
 ## Buyer App Platform Integration
