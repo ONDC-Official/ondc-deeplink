@@ -40,20 +40,20 @@ The QR code maker is a user interface (UI) website offered by ONDC where provide
   <tr>
     <td rowspan="2">Magicpin</td>
     <td>iOS</td>
-    <td>Yet to upgrade</td>
+    <td>4.5.7</td>
   </tr>
   <tr>
     <td>Android</td>
-    <td>Yet to upgrade</td>
+    <td>1.87.2</td>
   </tr>
   <tr>
     <td rowspan="2">Paytm</td>
     <td>iOS</td>
-    <td>10.40</td>
+    <td>Yet to upgrade</td>
   </tr>
   <tr>
     <td>Android</td>
-    <td>10.40</td>
+    <td>Yet to upgrade</td>
   </tr>
 </table>
 

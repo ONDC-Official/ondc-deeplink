@@ -54,7 +54,7 @@ python3 qr_code_generate.py --data '{"context.bpp_id": "sellerapp.com", "message
 
 ### Generate Bulk QR codes:
 
-**Pass the csv file as a file argument**
+**Pass the csv file as a file argument - Refer to csv format from sampledata.csv**
 
 ```bash
 python3 qr_code_generate.py --file sampledata.csv

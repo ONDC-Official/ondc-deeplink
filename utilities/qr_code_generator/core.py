@@ -28,14 +28,15 @@ def bulk_read(data_file, qr_list = []):
 def generate_deep_link(deep_link):
     params = mapping.DEFAULT_PARAMS.copy()
     params.update(deep_link)
-    try:
-        domain = (deep_link.get('context.domain', 'ondc')).lower() # Returns 'default_value as ondc'
-        if ':' in domain:
-            domain = domain.split(':')[1]
-        # print("domain", domain)
-    except Exception as e:
-        print(f"domain not provided", e)
-    BASE_URL = f"{mapping.BASE_URL}{domain}.ondc"
+    # try:
+    #     domain = (deep_link.get('context.domain', 'ondc')).lower() # Returns 'default_value as ondc'
+    #     if ':' in domain:
+    #         domain = domain.split(':')[1]
+    #     # print("domain", domain)
+    # except Exception as e:
+    #     print(f"domain not provided", e)
+    # BASE_URL = f"{mapping.BASE_URL}{domain}.ondc"
+    BASE_URL = f"{mapping.BASE_URL}"
     query_string = '&'.join([f"{k}={v}" for k, v in params.items()])
     # fallback_url = "https://google.com"
     print(f"{BASE_URL}?{query_string}")
